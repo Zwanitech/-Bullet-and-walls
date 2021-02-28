@@ -65,8 +65,10 @@ function hasCollided(lbullet, lwall)
 	if (bulletRightEdge>=wallLeftEdge)
 	{
 		return true
-	}
+	}else{
 	return false;
+	}
+	
 }
 
 
